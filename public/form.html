@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no" />
+  <meta charset="utf-8">
+  <title>Pimp my comm!</title>
+    <style>
+        label, input {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pimp my comm!</h1>
+
+    <form action="/" method="post">
+
+        <label for="first">First name</label>
+        <input type="text" id="first" name="first" required />
+
+        <label for="last">Last Name</label>
+        <input type="text" id="last" name="last" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message</label>
+        <input type="message" id="message" name="message" required />
+
+        <button>Check the mood!</button>
+
+    </form>
+
+    <div>
+        <h3>Your message mood:</h3>
+        <p id="score"></p>
+</body>
+</html>

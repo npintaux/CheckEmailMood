@@ -1,0 +1,21 @@
+{
+  "name": "formserveremail",
+  "version": "1.0.0",
+  "description": "Form to check on the mood of an e-mail",
+  "main": "formserveremail.js",
+  "dependencies": {
+    "formidable": "^1.1.1",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "e-mail",
+    "cognitive",
+    "services"
+  ],
+  "author": "Nicolas Pintaux",
+  "license": "ISC"
+}
